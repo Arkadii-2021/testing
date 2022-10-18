@@ -1,0 +1,191 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+
+input {
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: field;
+    margin: 0em;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+	text-align: left;
+}
+
+.table-bordered {
+    border: 1px solid #ddd;
+}
+
+.cards {
+    margin: 10px 0;
+    height: 25px;
+}
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+
+.h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+
+.btn:hover {
+    background-color: #398538;
+}
+
+.btn:active {
+    background-color: #096209;
+}
+
+.btn {
+    display: inline-block;
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.form-inline .form-control {
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+	margin-right: 8px;
+}
+
+.form-control {
+    display: block;
+	width: 50%;
+	float: left;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.card {
+    float: left;
+    width: 39px;
+    height: 25px;
+    text-indent: -9999px;
+    background-position: 0 0;
+    margin-right: 4px;
+	
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.card.visa {
+    background-image: url(../brands-logos/visa_curved.png);
+}
+
+.card.master {
+    background-image: url(../brands-logos/mastercard_curved.png);
+}
+
+.card.amex {
+    background-image: url(../brands-logos/american_express_curved.png);
+}
+
+.card.discover {
+    background-image: url(../brands-logos/discover_straight.png);
+}
+
+.card.jcb {
+    background-image: url(../brands-logos/jcb.png);
+}
+
+.card.mir {
+    background-image: url(../brands-logos/mir-original.png);
+}
+
+.card.cdisabled {
+	-webkit-filter: grayscale(1);
+	filter: grayscale(1);
+    opacity: .3;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd){
+	background-color:#f9f9f9
+}
+
+.no-valid {
+	display: none;
+}
+
+.cart-valid {
+	display: inline;
+	font-size: 16px;
+	padding: 5px;
+	vertical-align: center;
+	background-color: green;
+	color: white;
+}
+
+.cart-novalid {
+	display: inline;
+	content: "Номер карты введён неверно";
+	font-size: 16px;
+	padding: 5px;
+	vertical-align: center;
+	background-color: red;
+	color: white;
+}
